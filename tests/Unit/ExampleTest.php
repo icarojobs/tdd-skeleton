@@ -15,4 +15,10 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function testIfPhpUnitTestIsWorking()
+    {
+        $a = 'a';
+        $this->assertEquals('a', $a);
+    }
 }
